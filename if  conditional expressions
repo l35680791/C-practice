@@ -1,0 +1,31 @@
+C# if 判斷式
+using System;
+     
+public class Program
+{
+ public static void Main()
+ {
+  int number = 25;
+  if(!(number == 25) ){
+  Console.WriteLine("運作成功");
+  }
+  else{
+  Console.WriteLine("不運作code");
+  }
+
+ }
+}
+//結果為 不運作code
+
+
+/*
+== <=左右兩邊的值相等為true
+!= <=左右兩邊的值不相等為true
+> <=左邊的值大於右為true
+< <=右邊的值大於左為true
+>= <=左邊的值大於等於右為true
+<= <=左的的值小於等於左為true
+&& <=左右判斷式皆為ture為true
+|| <=左或右其中一個判斷式為true為true
+!(判斷式) <= ()中的判斷式不為true為true
+*/
